@@ -1,2 +1,2 @@
 # bot-instagram
-Projeto para fazer bot com Selenium web driver
+Project to create a bot to post on instagram
