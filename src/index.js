@@ -7,17 +7,15 @@ function start() {
   function askAndReturnCredentials() {
     var user = {}
     const loginTypes = [`email`, `facebook`]
-    const typeIndex;
-    const typeText;
-
+    var typeIndex;
+    
     user.login = readLine.question(`Insert your login: `)
     user.pswd = readLine.question(`Insert your password: `, {
       hideEchoBack: true
     })
     typeIndex = readLine.keyInSelect(loginTypes)
-    typeText = loginTypes[typeIndex]
-
-    return userAuth
+    user.type = loginTypes[typeIndex]
+    return user
   }
 }
 
