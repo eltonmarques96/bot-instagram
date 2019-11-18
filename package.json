@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/eltonmarques96/bot-instagram/issues"
   },
-  "homepage": "https://github.com/eltonmarques96/bot-instagram#readme"
+  "homepage": "https://github.com/eltonmarques96/bot-instagram#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
