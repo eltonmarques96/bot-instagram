@@ -1,0 +1,22 @@
+{
+  "name": "bot-instagram",
+  "version": "1.0.0",
+  "description": "Bot to automatic comment on instagram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eltonmarques96/bot-instagram.git"
+  },
+  "author": "Elton Marques",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eltonmarques96/bot-instagram/issues"
+  },
+  "homepage": "https://github.com/eltonmarques96/bot-instagram#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
